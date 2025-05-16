@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.output-area {
+    display: flex;
+    flex-direction: column;
+    position: center;
+    width: 80%;
+    margin: auto;
+}
+#javaDiv, #CSSDiv {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    min-height: 100px;
+}
+button {
+    margin-left: 10px;
+    background-color: antiquewhite;
+    font-weight: 100;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: aquamarine;
+}
+#area1{
+    margin-left: 10px;
+    width: 90%;
+    margin: auto;
+    position: center;
+    min-height: 300px;
+}
+.myphoto{
+    width: 200px;
+    height: 200px;
+    border: #ccc;
+    border-radius: 50%;
+    margin: auto;
+    
+
+}
+.container1{
+    display: flex;
+}
